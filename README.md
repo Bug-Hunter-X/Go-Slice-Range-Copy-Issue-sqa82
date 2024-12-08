@@ -1,0 +1,2 @@
+# Go Slice Range Copy Issue
+This example demonstrates an issue when using range over slices in Go.  The range loop creates a copy of the slice element, so modifications within the loop are not reflected in the original slice. This is a common pitfall for developers new to Go. This repo contains example code showing the bug and its solution.
